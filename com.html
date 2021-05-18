@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title> 天云资源铺</title>
+    <meta name="keywords" content="天云">
+    <meta name="description" content="天云">
+	<link rel="shortcut icon" type="image/x-icon" href="http://12332126.xyz/assets/imgs/favicon.ico" media="screen" />
+    <link rel="stylesheet" href="http://12332126.xyz/template/lffwq/static/AmazeUI/css/amazeui.min.css" >
+    <link rel="stylesheet" href="http://12332126.xyz/template/lffwq/static/css/sm.min.css"/>
+    <link rel="stylesheet" href="http://12332126.xyz/template/lffwq/static/css/web.css"/>
+    <link rel="stylesheet" href="http://12332126.xyz/template/lffwq/static/css/iconfont.css"/>
+	 <script src="http://12332126.xyz/assets/layui/layui.js"></script>
+        <script src="http://12332126.xyz/assets/jquery/jquery.min.js"></script>
+		<script src="http://12332126.xyz/assets/jquery/jquery.cookie.js"></script>
+    <script type='text/javascript' src='http://12332126.xyz/template/lffwq/static/AmazeUI/js/amazeui.min.js'></script>
+
+    <style>
+        .nomore, .kami p {
+            font-size: .6rem;
+        }
+
+        .popup {
+            height: 18rem;
+        }
+
+        .sn, .pass, .desc {
+            display: none
+        }
+
+        .nomore {
+            text-align: center
+        }
+
+        .content {
+            padding-bottom: 2rem;
+        }
+
+        .card {
+            margin: .5rem .2rem;
+        }
+
+        .list-block.media-list .item-title {
+            font-weight: 400
+        }
+
+        .list-block input[type=text], .list-block input[type=password], .list-block input[type=email], .list-block input[type=tel], .list-block input[type=url], .list-block input[type=date], .list-block input[type=datetime-local], .list-block input[type=time], .list-block input[type=number], .list-block input[type=search], .list-block select, .list-block textarea {
+            font-size: .7rem;
+        }
+
+        .page, .page-group {
+            max-width: 500px;
+            margin: 0 auto;
+            position: relative
+        }
+
+        .bar-tab, .popup {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body class="am-with-topbar-fixed-top">
+            
+
+    <div class="page-group">
+        <div class="page page-current" id='index'>
+            <header class="bar bar-nav">
+                <h1 class="title">联系客服</h1>
+            </header>
+            <div class="content" style="padding-bottom: 5rem;">
+
+                                    <div class="card" style="margin: .5rem;">
+                        <div class="card-header">QQ客服</div>
+                        <div class="card-content">
+                            <div class="card-content-inner btt" style="text-align: center;"
+                                 data-clipboard-text="2578977851">
+                                2578977851 (点击复制)
+                            </div>
+                        </div>
+                    </div>
+
+                                
+                    <div class="card" style="margin: .5rem;">
+                        <div class="card-header">微信客服</div>
+                        <div class="card-content">
+                            <div class="card-content-inner" style="text-align: center">
+                                <img src="20201203111946.jpg" alt=""
+                                     style="width: 80%;margin-top: 1rem;">
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <style>
+
+    .bar {
+        z-index: 999;
+    }
+
+    .bar .iconfont {
+        display: inline-block;
+        top: .05rem;
+        height: 1.2rem;
+        font-size: 1rem;
+        line-height: 1.2rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        position: relative;
+        font-style: normal;
+        z-index: 20;
+        padding: 0rem .1rem;
+    }
+
+    .bar-tab .tab-item .iconfont ~ .tab-label {
+        display: block;
+        font-size: .55rem;
+        position: relative;
+        top: .15rem;
+    }
+
+    .bar a, .bar-tab .tab-item {
+        color: #666;
+    }
+</style>
+
+<nav class="bar bar-tab" style="position: fixed; ">
+    <a class="tab-item external nav1" href="index.html">
+        <span class="iconfont icon-home"></span>
+        <span class="tab-label">首页</span>
+    </a>
+
+
+    <a class="tab-item external nav2" href="#">
+        <span class="iconfont icon-sortlight"></span>
+        <span class="tab-label">商品分类</span>
+    </a>
+
+
+
+    <a class="tab-item external nav3 active" href="http://12332126.xyz/index.php?html=kefu">
+        <span class="iconfont icon-kefu"></span>
+        <span class="tab-label">联系客服</span>
+    </a>
+
+
+    <a class="tab-item external nav4" href="http://12332126.xyz/query.php">
+        <span class="iconfont icon-search"></span>
+        <span class="tab-label">查询订单</span>
+    </a>
+
+
+</nav>               
+ <script type="text/javascript" src="http://12332126.xyz/template/lffwq/static/AmazeUI/js/clipboard.min.js"></script>
+
+                <script type="text/javascript">
+                    var clipboard = new ClipboardJS(".btt");
+
+                    clipboard.on("success", function (e) {
+                        console.info("Action:", e.action);
+                        console.info("Text:", e.text);
+                        console.info("Trigger:", e.trigger);
+
+                        e.clearSelection();
+                        $.alert("复制成功");
+                    });
+
+
+                </script>
+				
